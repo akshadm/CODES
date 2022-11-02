@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# iNotes <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>* A notes taking web site using MERN Stack where Backend is created using *NodeJS & express JS*. <br/>
+>* *Mongo DB* is used to Store Data.<br/>
+>* Frontend is built using *React JS*.<br/>
+>* Authentication is Done and passwords are hashed using Salt and pepper method of *bcrypt JS*. <br/>
+>* Authorization using *JSON Web Token*.<br/>
 
-## Available Scripts
+## Working Video
 
-In the project directory, you can run:
+https://user-images.githubusercontent.com/74672126/182878666-02e16e73-1f2f-4fd7-9cce-6863c0fcf5fd.mp4
 
-### `npm start`
+## How to Run?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>* Install Node JS in your PC and add it into the enviornment variables path. <br/>
+>* Install MongoDB and Get a Connection String from it. <br/>
+>* Download this folder. <br/>
+>* Open Folder. <br/>
+>* Run *cd backend* and then *npm i*. <br/>
+>* Run *cd frontend* and then *npm i*. <br/>
+>* These commands will import all the necessary packages <br/>
+>* Paste the Copied Connection string in *db.js* in MongoURI Variable like this, *const mongoURI ="mongodb://localhost:27017/inotes?readPreference=primary&appname=MongoDB%20Compass&ssl=false";* <br/>
+>* go to frontend Run *npm run both*, which will start both frontend and backend. <br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## You're all set to use iNotes <br/>
 
-### `npm test`
+# Screenshots <br/>
+###### Signup Page
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74672126/175500323-5e5de554-70c0-49e8-8f83-94dc69bd8108.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Login Page
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/74672126/175500253-ad2c233c-bb80-45d0-9f41-be58f916c350.png">
 
-### `npm run build`
+###### Add Note
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74672126/175500502-11218255-1a5c-4eea-8887-ad93835ed624.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###### View Note
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74672126/175500595-4a62e826-05b8-4441-b58a-8c17a9ef1ad2.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###### Pdf of Downloaded Note
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74672126/175500678-3ccf704d-e9c0-4206-858d-4c2c180ba4de.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###### Profile Page
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/74672126/175500736-5c6cc071-78a8-4d0c-a74b-733cbf149b31.png">
